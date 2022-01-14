@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    width: 1250px;
+}
+
+.header {
+    height: 100px;
+}
+
+.header img {
+    margin-left: 33rem;
+    margin-top: 20px;
+}
+
+/* superbox -> aplicar as margens na página */
+.superbox {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Barra inferior do header */
+
+.subheader {
+
+    border: 1px solid #F5F6F7;
+    
+    display: flex;
+    height: 40px;
+}
+
+/* configurando as divs do subheader */
+.subheader .sub {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 4px;
+    width: 10%;
+    height: 100%;
+}
+
+/* aplicando as cores */
+.subheader .a { color: red;         }
+.subheader .b { color: blue;        }
+.subheader .c { color: lightblue;   }
+.subheader .d { color: green;       }
+.subheader .e { color: orange;      }
+.subheader .f { color: red;         }
+.subheader .g { color: pink;        }
+.subheader .h { color: orange;      }
+.subheader .i { color: black;       }
+.subheader .j { color: purple;      }
+
+.subheader:hover {
+    cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* bordas separadoras */
+
+.linha-horizontal-1 {
+
+    border: 1px solid #F5F6F7;
+
+    width: 620px;
+    position: relative;
+    top: 320px;
+    left: 80px;
+}
+
+.linha-horizontal-2 {
+
+    border: 1px solid #F5F6F7;
+
+    width: 620px;
+    position: relative;
+    top: 660px;
+    left: 80px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* dividindo o body em 3 seções */
+
+.box-top {
+
+    display: flex;
+    height: 300px;
+}
+
+.box-mid {
+
+    display: flex;
+    height: 300px;
+}
+
+.box-bot {
+    
+    display: flex;
+    height: 300px;
+}
+
+/* ------------------------------------------------------------------------------ >> */
+/* caixas superiores */
+
+.box-top-1 {
+    width: 740px;
+    height: 100%;
+}
+
+.box-top-2 {
+    width: 265px;
+    height: 100%;
+}
+
+.box-top-3 {
+    width: 265px;
+    height: 100%;
+}
+
+/* ------------------------------------------------------------------------------ >> */
+/* caixas centrais */
+
+.box-mid-1 {
+    width: 240px;
+    height: 100%;
+}
+
+.box-mid-2 {
+    width: 240px;
+    height: 100%;
+}
+
+.box-mid-3 {
+    width: 240px;
+    height: 100%;
+}
+
+.box-mid-4 {
+    width: 260px;
+    height: 100%;
+}
+
+.box-mid-5 {
+    /* background-color: lightsalmon; */
+    width: 240px;
+    height: 100%;
+}
+
+/* ------------------------------------------------------------------------------ >> */
+/* caixas inferiores */
+
+.box-bot-1 {
+    width: 240px;
+    height: 100%;
+}
+
+.box-bot-2 {
+    width: 240px;
+    height: 100%;
+}
+
+.box-bot-3 {
+    width: 240px;
+    height: 100%;
+}
+
+.box-bot-4 {
+    width: 260px;
+    height: 100%;
+}
+
+.box-bot-5 {
+    /* background-color: red; */
+    width: 245px;
+    height: 100%;
+}
+
+/* ------------------------------------------------------------------------------ >> */
+/* tratamento das imagens */
+
+img {
+    width:  200px;
+    margin-top: 25px;
+    border-radius: 12px;
+}
+
+/* ------------------------------------------------------------------------------ >> */
+/* tratamento dos textos */
+
+.pgreen {
+
+    font-size: 14px;
+    color: green;
+}
+
+.pyellow {
+
+    font-size: 14px;
+    color: orange;
+}
+
+.pred {
+
+    font-size: 14px;
+    color: red;
+}
+
+h1 {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 52px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #e32636;
+}
+
+h3 {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Encode Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.alinhamento-especial {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.alinhamento-especial-2 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
