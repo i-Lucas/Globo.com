@@ -258,3 +258,31 @@ img:hover{
     opacity: 0.5;
     text-decoration: underline;
 }
+
+/* ------------------------------------------------------------ */
+
+/* responsividade -> infelizmente não funciona como deveria ! */
+
+@media (max-width: 600px) {
+
+    .toda-pagina {
+
+        width: auto;
+        height: auto;
+
+        display: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .todo-conteudo {
+
+        width: auto;
+        height: auto;
+
+        display: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+}
