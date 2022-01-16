@@ -1,268 +1,260 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
 
-body {
+.toda-pagina {
     width: 1250px;
+    margin: auto;
+    font-family: "Encode Sans", sans-serif;
+    background-color: white;
 }
 
 .header {
-    height: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header img {
-    margin-left: 33rem;
+    margin: 20px 50% 0 50%;
+    width: 200px;
+}
+
+/* --------------------------------------------------------------- */
+
+.sub-header {
+
+    height: 40px;
+    border-top: 1px solid #F4F5F6;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.sub-box {
+
+    width: 10%;
+    height: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid #F4F5F6;
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.s1 {    color: red;        }
+.s2 {    color: blue;       }
+.s3 {    color: cadetblue;  }
+.s4 {    color: green;      }
+.s5 {    color: orange;     }
+.s6 {    color: red;        }
+.s7 {    color: pink;       }
+.s8 {    color: orange;     }
+.s9 {    color: black;      }
+.s0 {    color: purple;     }
+
+.r {    color: red;         }
+.g {    color: green;       }
+.o {    color: orange;      }
+
+/* --------------------------------------------------------------- */
+
+.todo-conteudo {
+    display: flex;
+}
+
+.box-esquerdo {
+
+    width: 60%;
+    height: 900px;
+
+    margin-top: 15px;
+    /* background-color: lightblue; */
+}
+
+.box-direito {
+
+    width: 40%;
+    height: 900px;
+
+    display: flex;
+    margin-top: 15px;
+    /* background-color: salmon; */
+}
+
+/* --------------------------------------------------------------- */
+
+.box-esquerdo-top {
+
+    width: 100%;
+    height: 400px;
+
+    /* background-color: lightgreen; */
+    border-bottom: 2px solid #F5F6F7;
+    position: relative;
+}
+
+.box-esquerdo-top h1 {
+
+    margin: auto;
+    font-size: 58px;
+    font-weight: bold;
+    color: #C4160C;
+}
+
+.box-esquerdo-top p {
+
+    margin-top: 40px;
+    font-size: 18px;
+    color: #303134;
+}
+
+.manchete {
+
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+/* --------------------------------------------------------------- */
+
+.box-esquerdo-mid {
+
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-esquerdo-bot {
+
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    /* background-color: lightseagreen; */
+}
+
+/* --------------------------------------------------------------- */
+
+.box-direito-left {
+    
+    width: 50%;
+    height: 1000px;
+    /* background-color: red; */
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    border-left: 2px solid #F5F6F7;
+}
+
+.box-direito-left img {
+
+    margin-left: 15px;
+    margin-top: 80px;
+    border-radius: 12px;
+    width: 220px;
+}
+
+.box-direito-right {
+    width: 50%;
+    height: 1000px;
+    /* background-color: blue; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border-left: 2px solid #F5F6F7;
+}
+
+.box-direito-right img {
+
+    margin-left: 15px;
+    margin-top: 80px;
+    border-radius: 12px;
+    width: 220px;
+}
+
+.mecorrige {
+    margin-left: 15px;
+}
+
+/* --------------------------------------------------------------- */
+
+.box-esquerdo-mid .caixa {
+
+    margin-top: 40px;
+    width: 33.33%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.box-esquerdo-mid .caixa img {
+    border-radius: 12px;
+    width: 220px;
+}
+
+/* --------------------------------------------------------------- */
+
+.box-esquerdo-bot {
+
+    margin-top: 40px;
+    border-top: 2px solid #F5F6F7;
+    text-align: left;
+}
+
+.box-esquerdo-bot .caixa {
+
+    width: 33.33%;
+    height: 50%;
     margin-top: 20px;
 }
 
-/* superbox -> aplicar as margens na página */
-.superbox {
-    margin-left: 80px;
-    margin-right: 80px;
-}
+/* --------------------------------------------------------------- */
+/* tratando os textos */
 
-/* ---------------------------------------------------------------------------------- */
-/* Barra inferior do header */
+p, h1 {
 
-.subheader {
-
-    border: 1px solid #F5F6F7;
-    
-    display: flex;
-    height: 40px;
-}
-
-/* configurando as divs do subheader */
-.subheader .sub {
-    color: red;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Encode Sans', sans-serif;
-    font-size: 20px;
-    margin-top: 4px;
-    width: 10%;
-    height: 100%;
-}
-
-/* aplicando as cores */
-.subheader .a { color: red;         }
-.subheader .b { color: blue;        }
-.subheader .c { color: lightblue;   }
-.subheader .d { color: green;       }
-.subheader .e { color: orange;      }
-.subheader .f { color: red;         }
-.subheader .g { color: pink;        }
-.subheader .h { color: orange;      }
-.subheader .i { color: black;       }
-.subheader .j { color: purple;      }
-
-.subheader:hover {
-    cursor: pointer;
-}
-
-/* --------------------------------------------------------------------------------- */
-/* bordas separadoras */
-
-.linha-horizontal-1 {
-
-    border: 1px solid #F5F6F7;
-
-    width: 620px;
-    position: relative;
-    top: 320px;
-    left: 80px;
-}
-
-.linha-horizontal-2 {
-
-    border: 1px solid #F5F6F7;
-
-    width: 620px;
-    position: relative;
-    top: 660px;
-    left: 80px;
-}
-
-/* ---------------------------------------------------------------------------------- */
-/* dividindo o body em 3 seções */
-
-.box-top {
-
-    display: flex;
-    height: 300px;
-}
-
-.box-mid {
-
-    display: flex;
-    height: 300px;
-}
-
-.box-bot {
-    
-    display: flex;
-    height: 300px;
-}
-
-/* ------------------------------------------------------------------------------ >> */
-/* caixas superiores */
-
-.box-top-1 {
-    width: 740px;
-    height: 100%;
-}
-
-.box-top-2 {
-    width: 265px;
-    height: 100%;
-}
-
-.box-top-3 {
-    width: 265px;
-    height: 100%;
-}
-
-/* ------------------------------------------------------------------------------ >> */
-/* caixas centrais */
-
-.box-mid-1 {
-    width: 240px;
-    height: 100%;
-}
-
-.box-mid-2 {
-    width: 240px;
-    height: 100%;
-}
-
-.box-mid-3 {
-    width: 240px;
-    height: 100%;
-}
-
-.box-mid-4 {
-    width: 260px;
-    height: 100%;
-}
-
-.box-mid-5 {
-    /* background-color: lightsalmon; */
-    width: 240px;
-    height: 100%;
-}
-
-/* ------------------------------------------------------------------------------ >> */
-/* caixas inferiores */
-
-.box-bot-1 {
-    width: 240px;
-    height: 100%;
-}
-
-.box-bot-2 {
-    width: 240px;
-    height: 100%;
-}
-
-.box-bot-3 {
-    width: 240px;
-    height: 100%;
-}
-
-.box-bot-4 {
-    width: 260px;
-    height: 100%;
-}
-
-.box-bot-5 {
-    /* background-color: red; */
-    width: 245px;
-    height: 100%;
-}
-
-/* ------------------------------------------------------------------------------ >> */
-/* tratamento das imagens */
-
-img {
-    width:  200px;
-    margin-top: 25px;
-    border-radius: 12px;
-}
-
-/* ------------------------------------------------------------------------------ >> */
-/* tratamento dos textos */
-
-.pgreen {
-
-    font-size: 14px;
-    color: green;
-}
-
-.pyellow {
-
-    font-size: 14px;
-    color: orange;
-}
-
-.pred {
-
-    font-size: 14px;
-    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+    /* margin-left: 20px; */
 }
 
 h1 {
-    font-family: 'Encode Sans', sans-serif;
-    font-size: 18px;
-    margin-top: 4px;
+    
     font-weight: bold;
-}
-
-h2 {
-    font-family: 'Encode Sans', sans-serif;
-    font-size: 52px;
-    margin-top: 30px;
-    font-weight: bold;
-    color: #e32636;
-}
-
-h3 {
-    font-family: 'Encode Sans', sans-serif;
     font-size: 18px;
-    margin-top: 30px;
 }
 
-p {
-    font-family: 'Encode Sans', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 13px;
-}
+/* ------------------------------------------------------- */
+/* efeitos */
 
-p:hover{
+p:hover {
     cursor: pointer;
+    opacity: 0.5;
+    text-decoration: underline;
+}
+  
+h1:hover {
+    cursor: pointer;
+    opacity: 0.5;
     text-decoration: underline;
 }
 
-h1:hover{
+img:hover{  
     cursor: pointer;
-    text-decoration: underline;
+    opacity: 0.5;
 }
 
-h2:hover{
+.sub-box:hover {
     cursor: pointer;
+    opacity: 0.5;
     text-decoration: underline;
-}
-
-h3:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.alinhamento-especial {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 50px;
-}
-
-.alinhamento-especial-2 {
-    margin-right: 20px;
-    margin-left: 20px;
 }
